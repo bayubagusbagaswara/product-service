@@ -1,8 +1,8 @@
 version: "4"
 
 services:
-  mongodb-example:
-    container_name: mongodb-example
+  mongodb:
+    container_name: product-service-mongodb
     image: mongo:latest
     ports:
       - "27017:27017"
